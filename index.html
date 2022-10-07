@@ -8,29 +8,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <header>
-      <nav>
-        <a class="logo link" href="./index.html">Web<span class="logo-wrap">Studio</span></a>
+      <div class="container">
+        <nav>
+          <a class="logo link" href="./index.html">Web<span class="logo-wrap">Studio</span></a>
+          <ul class="list" >
+            <li ><a class="nav-link link current" href="./index.html">Студія</a></li>
+            <li><a class="nav-link link" href="./portfolio.html">Портфоліо</a></li>
+            <li><a class="nav-link link" href="#">Контакти</a></li>
+          </ul>
+        </nav>
         <ul class="list" >
-          <li ><a class="nav-link link current" href="./index.html">Студія</a></li>
-          <li><a class="nav-link link" href="./portfolio.html">Портфоліо</a></li>
-          <li><a class="nav-link link" href="#">Контакти</a></li>
+          <li><a class="link mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="link mail" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-      <ul class="list" >
-        <li><a class="link mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link mail" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="button hero-button cursor">Замовити послугу</button>
+        </div>
       </section>
       <section>
+        <div class="container">
         <h2 class="visually-hidden">Особливості</h2>
         <ul class="list" >
           <li>
@@ -61,9 +67,11 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <section>
-        <h2 class="section-title">Чим ми займаємося</h2>
+        <div class="container">
+          <h2 class="section-title">Чим ми займаємося</h2>
         <ul class="list" >
           <li>
             <img
@@ -87,8 +95,10 @@
             />
           </li>
         </ul>
+      </div>
       </section>
       <section class="section-team">
+        <div class="container">
         <h2 class="section-title">Наша команда</h2>
         <ul class="list">
           <li class="card">
@@ -128,9 +138,11 @@
             <p class="section-text">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer-background">
+    <div class="container">
       <a class="logo link" href="./index.html">Web<span class="logo-white">Studio</span></a>
       <address class="address">
         <ul class="list" >
@@ -146,6 +158,7 @@
           <li><a class="link mail-footer" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
+    </div>
     </footer>
   </body>
 </html>
