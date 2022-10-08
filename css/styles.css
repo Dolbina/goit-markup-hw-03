@@ -57,6 +57,12 @@ img {
   padding-bottom: 94px;
 }
 /* header */
+
+.header{
+  /* line header */
+
+  border-bottom: 1px solid #ececec;
+}
 .logo {
   margin-right: 93px;
 
@@ -113,9 +119,7 @@ img {
   display: flex;
   align-items: center;
 
-  /* line header */
 
-  border-bottom: 1px solid #ececec;
 }
 
 .header-mail {
