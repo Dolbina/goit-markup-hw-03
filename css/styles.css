@@ -214,6 +214,10 @@ img {
 .list-properties {
   width: calc((100% - 90px) / 4);
 }
+
+.feature-section{
+padding-bottom: 0;
+}
 /* Чим ми займаємось */
 .section-title {
   margin-bottom: 50px;
@@ -347,17 +351,14 @@ img {
 .filter-card {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 30px;
-  row-gap: 30px;
+  gap: 30px;
 }
 .card-item {
   width: calc((100% - 60px) / 3);
 }
 .sign-portfolio {
   display: block;
-  padding-left: 24px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
